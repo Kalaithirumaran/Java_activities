@@ -12,7 +12,7 @@ public class code1 {
 	System.out.println("Enter last name: ");
         String Y=sc.next();
         
-        int len_M = X.length();
+        int len_M = X.length()
         int len_N = Y.length();
         System.out.println((("Output: "+ X.substring(0,1)).toUpperCase()+(X.substring(1,len_M).toLowerCase()))+" "+ ((Y.toUpperCase())));
     }
